@@ -1,0 +1,481 @@
+body {
+	font-family: "Calibri Light", sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 5px;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Social Media Sections*/
+.socialIcons{
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+.socialIcons a{
+	color:white;
+	padding:5px;
+}
+
+.fa:hover {
+    opacity:0.7;
+    color: aqua;
+}
+
+
+
+
+/*Handles all  block alignment*/
+.content { 
+	position: relative; 
+	width: 400px; 
+	margin: 150px auto; 
+	padding: 30px;
+	background-color: rgba(0,0,0,0.6); 
+	color: white;
+	right: -350px;
+	text-align: center;
+}
+
+.AlternativeContent { 
+	position: relative; 
+	width: 600px; 
+	margin: 150px auto; 
+	padding: 30px;
+	background-color: rgba(0,0,0,0.6); 
+	color: white;
+	right: -350px;
+	text-align: center;
+}
+
+
+
+
+/*Nav Bar Stuff*/
+.mainNav {
+	float: center;
+	list-style: none;
+	font: 15px Futura, sans-serif;
+	padding-bottom: 10px;
+
+}
+
+.mainNav li {
+	padding: 20px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+ul.mainNav {
+	background-color: #dfe3ee;
+
+}
+
+ul.mainNav li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: #4682B4;
+}
+
+
+
+
+/*Image Backgruond Section*/
+img.background1 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.background2 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.background3 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img.background4 {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+/*handles all tag highlighting*/
+a.tagLink {
+	background-color: none;
+	color: 	#4682B4;
+	padding: 0px;
+	font-weight: bold;
+	font: 14px, sans-serif;
+}
+
+.tagLink a.hover:not(.active) {
+	background-color: #dfe3ee;
+    color: #4682B4;
+}
+
+a.tagLink:hover{
+	background-color: #dfe3ee;
+	opacity: 0.8;
+}
+
+
+
+/*Contact Section*/
+.contactTab {
+	font: 38px Futura, sans-serif;
+	padding: 10px;
+	letter-spacing: 4.0px;
+	margin-bottom: 20px;
+}
+
+header ul{ 
+	margin-bottom: 30px;
+
+}
+.mainContacts {
+	margin-top: 10px;
+}
+
+.mainContactsClass .ContactsLarge{
+	font: 30px Futura, sans-serif;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 25px;
+ 	text-align: center;
+ 	letter-spacing: 3.0px;
+}
+
+.mainContactsClass .ContactsSmall{
+	font: px Futura, sans-serif;
+	padding-top: 20px;
+	color: white;
+ 	text-align: center;
+ 	letter-spacing: 2.0px;
+}
+
+.mainContactsClass .ContactsSmall a{
+    color: #ffae00;
+    text-decoration: none;
+}
+
+.mainContactsClass .ContactsSmall a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Main Page*/
+.indexTab {
+	font: 38px Futura, sans-serif;
+	padding: 10px;
+	letter-spacing: 4.0px;
+	margin-bottom: 20px;
+}
+
+
+.mainIndexContentDiv p{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font: sans-serif;
+	letter-spacing: 3.0px;
+}
+
+
+
+
+
+/*About Me Styling*/
+.aboutMeTab {
+	font: 38px Futura, sans-serif;
+	padding: 10px;
+	letter-spacing: 4.0px;
+	margin-bottom: 20px;
+}
+
+.AboutTag {
+	font: 30px Roboto, sans-serif;
+	letter-spacing: 2.0px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+
+.AboutParagraph {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font: Roboto;
+	font-size: 18px;
+	letter-spacing: 2.0px;
+	line-height: 1.5;
+}
+
+.SkillsParagraph p {
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font: Roboto;
+	font-size: 16px;
+	letter-spacing: 2.5px;
+}
+
+.moreInfo {
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font: Roboto;
+	font-size: 18px;
+	letter-spacing: 2.0px;
+
+}
+
+/*Styles images as well as the image associated with projects*/
+img{
+	height: 200px;
+	width: 285px;
+}
+
+
+.container {
+  padding-top: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.aboutMeImage{
+    padding: 20px;
+}
+
+
+
+
+
+/*Projects Styling*/
+.projectsTab {
+	font: 38px Futura, sans-serif;
+	padding: 10px;
+	letter-spacing: 4.0px;
+	margin-bottom: 20px;
+}
+
+.ProjectTag {
+	font: 30px Roboto, sans-serif;
+	letter-spacing: 2.0px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+
+
+.projectParagraph {
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	font: Roboto;
+	font-size: 16px;
+	letter-spacing: 2.0px;
+}
+
+ul.Veeva{
+	padding: 10px;
+}
+
+ul.INF133 {
+	padding: 10px;
+}
+
+.parent {
+	padding:10px;
+}
+
+.child1{
+	padding:10px;
+}
+
+.child2{
+	padding:10px;
+}
+
+.child3{
+	padding:10px;
+}
+
+.child1 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.child2 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.child3 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+
+ul.lineStyle{
+	list-style-type: none;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+.profilePicture {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+
+.goToTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #dfe3ee;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: Verdana;
+	opacity: 0.8;
+}
+
+.goToTop li a:hover:not(.active) {
+    background-color: #dfe3ee;
+    color: 	#4682B4;
+}
+
+
+
+
+/*Utilized this media query to generate perfect CSS image. Found helpful information about this link
+https://css-tricks.com/perfect-full-page-background-image/*/
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background1 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background2 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background3 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.background4 {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+/*This media query makes the navigational bar responsive and layer vertically when compressing the broswer.
+Found out about this via the link below
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+*/
+
+@media screen and (max-width: 900px) {
+    ul.mainNav{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.mainNav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.mainNav li a {
+        text-align: center;
+        float: none;
+    }
+}
